@@ -22,8 +22,10 @@ doAnalysis <- function() {
   colnames(combinedData) <- featureNames$V2
   
   #retains only those column names that contain either 'mean' or 'std'
-  featureNamesToKeep <- 
   combinedData <- combinedData[,grep("mean\\(\\)|std\\(\\)", featureNames$V2)]
+  
+  #make column names human readable
+  colnames(combinedData) <- sapply(colnames(combinedData), cleanName)
  
   #retrieve and set the activity labels for train and test data
   activityLabels <- readActivityLabels()
@@ -35,9 +37,9 @@ doAnalysis <- function() {
   
   #write out a file in tidy data format of the mean of all features
   #grouped by activity and subject.
-  write.table(aggregate(allData[, 1:66], 
-                        list(Subject = allData$subjects,
-                             Activity = allData$activity), 
+  write.table(aggregate(combinedData[, 1:66], 
+                        list(Subject = combinedData$subjects,
+                             Activity = combinedData$activity), 
                         mean), 
               file="tidy-mean-by-subject-activity.txt", 
               sep = "\t", 
@@ -77,5 +79,20 @@ readActivityLabels <- function() {
 #each index corresponds to a column where name contains either 'mean' or 'std'
 readFeatureNames <- function() {
   featureNames <- read.table("features.txt")
+  
+}
+
+#transforms each input string to something more "human readable
+#the inspiration for the transforms are taken from a careful reading
+#of the features-info.txt included with the dataset
+cleanName <- function(input) {
+  transform1 <- gsub("tBody", "timeSignalForBody", input)
+  transform2 <- gsub("fBody", "frequencySignalForBody", transform1)
+  transform3 <- gsub("tGravity", "timeSignalForGravity", transform2)
+  transform4 <- gsub("fGravity", "frequencySignalForGravity", transform3)
+  transform5 <- gsub("Acc", "Acceleration", transform4)
+  transform6 <- gsub("Mag", "Magnitude", transform5)
+  
+  gsub("[\\(\\)]", "", transform6)
   
 }

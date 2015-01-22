@@ -41,10 +41,10 @@ Using this original data, an R script (provided in the same repository as this c
 The remaining sections of this code book list each column of the data set written out in the file 'tidy-mean-by-subject-activity.txt' and provides a brief description of the column (feature).
 
 ## Subject
- .
+The integer id of the subject who performed the activity for which the various measurement data was captured. Values range from 1-30.
 
 ## Activity
- .
+One of six activities that the subject performed when the original data was captured.   (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 ## timeSignalForBodyAcceleration-mean-X
 The mean of the time signal for body acceleration in the X dimension.

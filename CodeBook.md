@@ -47,202 +47,203 @@ The integer id of the subject who performed the activity for which the various m
 One of six activities that the subject performed when the original data was captured.   (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 ## timeSignalForBodyAcceleration-mean-X
-The mean of the time signal for body acceleration in the X dimension.
+The mean of the the average of the time signal for body acceleration in the X dimension for the given subject and activity.
 
 ## timeSignalForBodyAcceleration-mean-Y
-The mean of the time signal for body acceleration in the Y dimension.
+The mean of the the average of the time signal for body acceleration in the Y dimension for the given subject and activity.
 
 ## timeSignalForBodyAcceleration-mean-Z
-The mean of the time signal for body acceleration in the Z dimension.
+The mean of the the average of the time signal for body acceleration in the Z dimension for the given subject and activity.
 
 ## timeSignalForBodyAcceleration-std-X
-The standard deviation of the time signal for body acceleration in the X dimension.
+The mean of the the standard deviation of the time signal for body acceleration in the X dimension for the given subject and activity.
 
 ## timeSignalForBodyAcceleration-std-Y
-The standard deviation of the time signal for body acceleration in the Y dimension.
+The mean of the the standard deviation of the time signal for body acceleration in the Y dimension for the given subject and activity.
 
 ## timeSignalForBodyAcceleration-std-Z
-The standard deviation of the time signal for body acceleration in the Z dimension.
+The mean of the the standard deviation of the time signal for body acceleration in the Z dimension for the given subject and activity.
 
 ## timeSignalForGravityAcceleration-mean-X
-The mean of the time signal for gravity acceleration in the X dimension.
+The mean of the the average of the time signal for gravity acceleration in the X dimension for the given subject and activity.
 
 ## timeSignalForGravityAcceleration-mean-Y
-The mean of the time signal for gravity acceleration in the Y dimension.
+The mean of the the average of the time signal for gravity acceleration in the Y dimension for the given subject and activity.
 
 ## timeSignalForGravityAcceleration-mean-Z
-The mean of the time signal for gravity acceleration in the Z dimension.
+The mean of the the average of the time signal for gravity acceleration in the Z dimension for the given subject and activity.
 
 ## timeSignalForGravityAcceleration-std-X
-The standard deviation of the time signal for gravity acceleration in the X dimension.
+The mean of the the standard deviation of the time signal for gravity acceleration in the X dimension for the given subject and activity.
 
 ## timeSignalForGravityAcceleration-std-Y
-The standard deviation of the time signal for gravity acceleration in the Y dimension.
+The mean of the the standard deviation of the time signal for gravity acceleration in the Y dimension for the given subject and activity.
 
 ## timeSignalForGravityAcceleration-std-Z
-The standard deviation of the time signal for gravity acceleration in the Z dimension.
+The mean of the the standard deviation of the time signal for gravity acceleration in the Z dimension for the given subject and activity.
 
 ## timeSignalForBodyAccelerationJerk-mean-X
-The mean of the time signal for body acceleration jerk in the X dimension.
+The mean of the the average of the time signal for body acceleration jerk in the X dimension for the given subject and activity.
 
 ## timeSignalForBodyAccelerationJerk-mean-Y
-The mean of the time signal for body acceleration jerk in the Y dimension.
+The mean of the the average of the time signal for body acceleration jerk in the Y dimension for the given subject and activity.
 
 ## timeSignalForBodyAccelerationJerk-mean-Z
-The mean of the time signal for body acceleration jerk in the Z dimension.
+The mean of the the average of the time signal for body acceleration jerk in the Z dimension for the given subject and activity.
 
 ## timeSignalForBodyAccelerationJerk-std-X
-The standard deviation of the time signal for body acceleration jerk in the X dimension.
+The mean of the the standard deviation of the time signal for body acceleration jerk in the X dimension for the given subject and activity.
 
 ## timeSignalForBodyAccelerationJerk-std-Y
-The standard deviation of the time signal for body acceleration jerk in the Y dimension.
+The mean of the the standard deviation of the time signal for body acceleration jerk in the Y dimension for the given subject and activity.
 
 ## timeSignalForBodyAccelerationJerk-std-Z
-The standard deviation of the time signal for body acceleration jerk in the Z dimension.
+The mean of the the standard deviation of the time signal for body acceleration jerk in the Z dimension for the given subject and activity.
 
 ## timeSignalForBodyGyro-mean-X
-The mean of the time signal for body gyro in the X dimension.
+The mean of the the average of the time signal for body gyro in the X dimension for the given subject and activity.
 
 ## timeSignalForBodyGyro-mean-Y
-The mean of the time signal for body gyro in the Y dimension.
+The mean of the the average of the time signal for body gyro in the Y dimension for the given subject and activity.
 
 ## timeSignalForBodyGyro-mean-Z
-The mean of the time signal for body gyro in the Z dimension.
+The mean of the the average of the time signal for body gyro in the Z dimension for the given subject and activity.
 
 ## timeSignalForBodyGyro-std-X
-The standard deviation of the time signal for body gyro in the X dimension.
+The mean of the the standard deviation of the time signal for body gyro in the X dimension for the given subject and activity.
 
 ## timeSignalForBodyGyro-std-Y
-The standard deviation of the time signal for body gyro in the Y dimension.
+The mean of the the standard deviation of the time signal for body gyro in the Y dimension for the given subject and activity.
 
 ## timeSignalForBodyGyro-std-Z
-The standard deviation of the time signal for body gyro in the Z dimension.
+The mean of the the standard deviation of the time signal for body gyro in the Z dimension for the given subject and activity.
 
 ## timeSignalForBodyGyroJerk-mean-X
-The mean of the time signal for jerk body gyro in the X dimension.
+The mean of the the average of the time signal for jerk body gyro in the X dimension for the given subject and activity.
 
 ## timeSignalForBodyGyroJerk-mean-Y
-The mean of the time signal for jerk body gyro in the Y dimension.
+The mean of the the average of the time signal for jerk body gyro in the Y dimension for the given subject and activity.
 
 ## timeSignalForBodyGyroJerk-mean-Z
-The mean of the time signal for jerk body gyro in the Z dimension.
+The mean of the the average of the time signal for jerk body gyro in the Z dimension for the given subject and activity.
 
 ## timeSignalForBodyGyroJerk-std-X
-The standard deviation of the time signal for jerk body gyro in the X dimension.
+The mean of the the standard deviation of the time signal for jerk body gyro in the X dimension for the given subject and activity.
 
 ## timeSignalForBodyGyroJerk-std-Y
-The standard deviation of the time signal for jerk body gyro in the Y dimension.
+The mean of the the standard deviation of the time signal for jerk body gyro in the Y dimension for the given subject and activity.
 
 ## timeSignalForBodyGyroJerk-std-Z
-The standard deviation of the time signal for jerk body gyro in the Z dimension.
+The mean of the the standard deviation of the time signal for jerk body gyro in the Z dimension for the given subject and activity.
 
 ## timeSignalForBodyAccelerationMagnitude-mean
-The mean of the time signal for body acceleration magnitude .
+The mean of the the average of the time signal for body acceleration magnitude for the given subject and activity.
 
 ## timeSignalForBodyAccelerationMagnitude-std
-The standard deviation of the time signal for body acceleration magnitude .
+The mean of the the standard deviation of the time signal for body acceleration magnitude for the given subject and activity.
 
 ## timeSignalForGravityAccelerationMagnitude-mean
-The mean of the time signal for gravity acceleration magnitude .
+The mean of the the average of the time signal for gravity acceleration magnitude for the given subject and activity.
 
 ## timeSignalForGravityAccelerationMagnitude-std
-The standard deviation of the time signal for gravity acceleration magnitude .
+The mean of the the standard deviation of the time signal for gravity acceleration magnitude for the given subject and activity.
 
 ## timeSignalForBodyAccelerationJerkMagnitude-mean
-The mean of the time signal for body acceleration jerk magnitude .
+The mean of the the average of the time signal for body acceleration jerk magnitude for the given subject and activity.
 
 ## timeSignalForBodyAccelerationJerkMagnitude-std
-The standard deviation of the time signal for body acceleration jerk magnitude .
+The mean of the the standard deviation of the time signal for body acceleration jerk magnitude for the given subject and activity.
 
 ## timeSignalForBodyGyroMagnitude-mean
-The mean of the time signal for body gyro magnitude .
+The mean of the the average of the time signal for body gyro magnitude for the given subject and activity.
 
 ## timeSignalForBodyGyroMagnitude-std
-The standard deviation of the time signal for body gyro magnitude .
+The mean of the the standard deviation of the time signal for body gyro magnitude for the given subject and activity.
 
 ## timeSignalForBodyGyroJerkMagnitude-mean
-The mean of the time signal for jerk body gyro magnitude .
+The mean of the the average of the time signal for jerk body gyro magnitude for the given subject and activity.
 
 ## timeSignalForBodyGyroJerkMagnitude-std
-The standard deviation of the time signal for jerk body gyro magnitude .
+The mean of the the standard deviation of the time signal for jerk body gyro magnitude for the given subject and activity.
 
 ## frequencySignalForBodyAcceleration-mean-X
-The mean of the frequency signal for body acceleration in the X dimension.
+The mean of the the average of the frequency signal for body acceleration in the X dimension for the given subject and activity.
 
 ## frequencySignalForBodyAcceleration-mean-Y
-The mean of the frequency signal for body acceleration in the Y dimension.
+The mean of the the average of the frequency signal for body acceleration in the Y dimension for the given subject and activity.
 
 ## frequencySignalForBodyAcceleration-mean-Z
-The mean of the frequency signal for body acceleration in the Z dimension.
+The mean of the the average of the frequency signal for body acceleration in the Z dimension for the given subject and activity.
 
 ## frequencySignalForBodyAcceleration-std-X
-The standard deviation of the frequency signal for body acceleration in the X dimension.
+The mean of the the standard deviation of the frequency signal for body acceleration in the X dimension for the given subject and activity.
 
 ## frequencySignalForBodyAcceleration-std-Y
-The standard deviation of the frequency signal for body acceleration in the Y dimension.
+The mean of the the standard deviation of the frequency signal for body acceleration in the Y dimension for the given subject and activity.
 
 ## frequencySignalForBodyAcceleration-std-Z
-The standard deviation of the frequency signal for body acceleration in the Z dimension.
+The mean of the the standard deviation of the frequency signal for body acceleration in the Z dimension for the given subject and activity.
 
 ## frequencySignalForBodyAccelerationJerk-mean-X
-The mean of the frequency signal for body acceleration jerk in the X dimension.
+The mean of the the average of the frequency signal for body acceleration jerk in the X dimension for the given subject and activity.
 
 ## frequencySignalForBodyAccelerationJerk-mean-Y
-The mean of the frequency signal for body acceleration jerk in the Y dimension.
+The mean of the the average of the frequency signal for body acceleration jerk in the Y dimension for the given subject and activity.
 
 ## frequencySignalForBodyAccelerationJerk-mean-Z
-The mean of the frequency signal for body acceleration jerk in the Z dimension.
+The mean of the the average of the frequency signal for body acceleration jerk in the Z dimension for the given subject and activity.
 
 ## frequencySignalForBodyAccelerationJerk-std-X
-The standard deviation of the frequency signal for body acceleration jerk in the X dimension.
+The mean of the the standard deviation of the frequency signal for body acceleration jerk in the X dimension for the given subject and activity.
 
 ## frequencySignalForBodyAccelerationJerk-std-Y
-The standard deviation of the frequency signal for body acceleration jerk in the Y dimension.
+The mean of the the standard deviation of the frequency signal for body acceleration jerk in the Y dimension for the given subject and activity.
 
 ## frequencySignalForBodyAccelerationJerk-std-Z
-The standard deviation of the frequency signal for body acceleration jerk in the Z dimension.
+The mean of the the standard deviation of the frequency signal for body acceleration jerk in the Z dimension for the given subject and activity.
 
 ## frequencySignalForBodyGyro-mean-X
-The mean of the frequency signal for body gyro in the X dimension.
+The mean of the the average of the frequency signal for body gyro in the X dimension for the given subject and activity.
 
 ## frequencySignalForBodyGyro-mean-Y
-The mean of the frequency signal for body gyro in the Y dimension.
+The mean of the the average of the frequency signal for body gyro in the Y dimension for the given subject and activity.
 
 ## frequencySignalForBodyGyro-mean-Z
-The mean of the frequency signal for body gyro in the Z dimension.
+The mean of the the average of the frequency signal for body gyro in the Z dimension for the given subject and activity.
 
 ## frequencySignalForBodyGyro-std-X
-The standard deviation of the frequency signal for body gyro in the X dimension.
+The mean of the the standard deviation of the frequency signal for body gyro in the X dimension for the given subject and activity.
 
 ## frequencySignalForBodyGyro-std-Y
-The standard deviation of the frequency signal for body gyro in the Y dimension.
+The mean of the the standard deviation of the frequency signal for body gyro in the Y dimension for the given subject and activity.
 
 ## frequencySignalForBodyGyro-std-Z
-The standard deviation of the frequency signal for body gyro in the Z dimension.
+The mean of the the standard deviation of the frequency signal for body gyro in the Z dimension for the given subject and activity.
 
 ## frequencySignalForBodyAccelerationMagnitude-mean
-The mean of the frequency signal for body acceleration magnitude .
+The mean of the the average of the frequency signal for body acceleration magnitude for the given subject and activity.
 
 ## frequencySignalForBodyAccelerationMagnitude-std
-The standard deviation of the frequency signal for body acceleration magnitude .
+The mean of the the standard deviation of the frequency signal for body acceleration magnitude for the given subject and activity.
 
-## frequencySignalForBodyBodyAccelerationJerkMagnitude-mean
-The mean of the frequency signal for body acceleration jerk magnitude .
+## frequencySignalForBodyAccelerationJerkMagnitude-mean
+The mean of the the average of the frequency signal for body acceleration jerk magnitude for the given subject and activity.
 
-## frequencySignalForBodyBodyAccelerationJerkMagnitude-std
-The standard deviation of the frequency signal for body acceleration jerk magnitude .
+## frequencySignalForBodyAccelerationJerkMagnitude-std
+The mean of the the standard deviation of the frequency signal for body acceleration jerk magnitude for the given subject and activity.
 
-## frequencySignalForBodyBodyGyroMagnitude-mean
-The mean of the frequency signal for body gyro magnitude .
+## frequencySignalForBodyGyroMagnitude-mean
+The mean of the the average of the frequency signal for body gyro magnitude for the given subject and activity.
 
-## frequencySignalForBodyBodyGyroMagnitude-std
-The standard deviation of the frequency signal for body gyro magnitude .
+## frequencySignalForBodyGyroMagnitude-std
+The mean of the the standard deviation of the frequency signal for body gyro magnitude for the given subject and activity.
 
-## frequencySignalForBodyBodyGyroJerkMagnitude-mean
-The mean of the frequency signal for jerk body gyro magnitude .
+## frequencySignalForBodyGyroJerkMagnitude-mean
+The mean of the the average of the frequency signal for jerk body gyro magnitude for the given subject and activity.
 
-## frequencySignalForBodyBodyGyroJerkMagnitude-std
-The standard deviation of the frequency signal for jerk body gyro magnitude .
+## frequencySignalForBodyGyroJerkMagnitude-std
+The mean of the the standard deviation of the frequency signal for jerk body gyro magnitude for the given subject and activity.
+
 
 
 

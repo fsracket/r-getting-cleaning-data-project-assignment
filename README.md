@@ -1,4 +1,4 @@
-This repository contains a program which takes data originally produced by ... (see codebook) and transforms it into a new data set using the steps described below.  To run the program, perform the following steps:
+This repository contains a program which takes data originally produced by the study "Human Activity Recognition Using Smartphones Dataset" (please see codebook in this repository for more details about the original data set) and transforms it into a new data set using the steps described below.  To run the program, perform the following steps:
 
 1.  Start R (or RStudio).
 2.  Source the 'run_analysis.R' file contained in this repository.

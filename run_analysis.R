@@ -92,7 +92,7 @@ cleanName <- function(input) {
   transform4 <- gsub("fGravity", "frequencySignalForGravity", transform3)
   transform5 <- gsub("Acc", "Acceleration", transform4)
   transform6 <- gsub("Mag", "Magnitude", transform5)
-  transform7 <- gsub("BodyBody" "Body", transform6)
+  transform7 <- gsub("BodyBody", "Body", transform6)
   
   gsub("[\\(\\)]", "", transform7)
   

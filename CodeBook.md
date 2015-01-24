@@ -38,7 +38,7 @@ Using this original data, an R script (provided in the same repository as this c
 7. The data in the combined data set were then grouped by activity and subject and the mean was calculated for each column for each combination of activity and subject.
 8. The resulting data set was then written in the current working directory (as obtained at runtime by the R script) under the name 'tidy-mean-by-subject-activity.txt'
 
-The remaining sections of this code book list each column of the data set written out in the file 'tidy-mean-by-subject-activity.txt' and provides a brief description of the column (feature).
+The remaining sections of this code book list each column of the data set written out in the file 'tidy-mean-by-subject-activity.txt' and provides a brief description of the column (feature).  Note that for all measurement variables (i.e. all variables other than 'Subject' and 'Activity'), the values are unitless.  This is because one of the steps performed to produce the original data set was a normalization of values (see Readme of original data set for more details).
 
 ## Subject
 The integer id of the subject who performed the activity for which the various measurement data was captured. Values range from 1-30.

@@ -5,7 +5,7 @@ This repository contains a program which takes data originally produced by the s
 3.  Use 'setwd()' to change your working directory to the top-level directory obtained from unzipping the original data set file.
   1.  For example, if after unzipping the original data set file, you created a directory called '/path/to/dataset/folder', you should set your working directory to '/path/to/dataset/folder'.
   2.  The original data set file can be found here:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-4.  Execute the 'doAnalysis()' function at the R prompt.  
+4.  Run the 'run_analysis()' function at the R prompt.  
 
 The provided R program performs the following transformation steps.
 

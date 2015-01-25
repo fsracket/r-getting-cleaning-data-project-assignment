@@ -30,7 +30,7 @@ Using this original data, an R script (provided in the same repository as this c
 3. The combined data set was pruned by retaining only those columns whose features represented either a mean or standard variation of some measurement.  Determining which features (columns) to retain was done by simple text comparison.  More specifically, if the feature name contained either 'mean()' or 'std()' it was considered to represent either a mean value or a standard deviation value and it and its associated column was retained.
 4. A text cleansing was done on the remaining column names to make them more 'human readable'.  This involved:
   1. Where 't' was shorthand for time signal it was replaced with the text 'timeSignalFor'.
-  2. Where 'f' was shorthand for body signal it was replaced with the text 'frequencySignalFor'.
+  2. Where 'f' was shorthand for frequency signal it was replaced with the text 'frequencySignalFor'.
   3. Occurrences of 'Acc' were replaced with 'Acceleration'.
   4. Occurrences of 'Mag' were replaced with 'Magnitude'.
   5. Removing duplicate occurences of the word 'body' from a column name.

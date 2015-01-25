@@ -34,7 +34,7 @@ Using this original data, an R script (provided in the same repository as this c
   3. Occurrences of 'Acc' were replaced with 'Acceleration'.
   4. Occurrences of 'Mag' were replaced with 'Magnitude'.
   5. Removing duplicate occurences of the word 'body' from a column name.
-  6. Remove all occurences of '(' and ').
+  6. Remove all occurences of '(' and ')'.
 5. Each subject id was obtained from the 'subject_test' and 'subject_train' files in the original data set and added to the appropriate row in the combined data set.  In other words, a column of subject ids (integers) was added to the data set where each subject id in the row indicates which subject (from 1 to 30) created the data displayed in the row.
 6. The activity performed by the subject to generate each row of data was retrieved from the 'y_test' and 'y_train' files (in the original data set) and added to each row in the combined data set using the human readable activity labels which were specified in the 'activity_labels.txt' file of the original data set.
 7. The data in the combined data set were then grouped by activity and subject and the mean was calculated for each column for each combination of activity and subject.

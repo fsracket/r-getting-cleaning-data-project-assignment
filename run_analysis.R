@@ -3,7 +3,7 @@
 #Course Project
 #Before running this function, please ensure that your working directory
 #is set to be the folder that contains all the UCI HAR data!
-doAnalysis <- function() {
+run_analysis <- function() {
   #get the train data
   trainData <- read.table("./train/X_train.txt")
   

@@ -37,7 +37,8 @@ doAnalysis <- function() {
   
   #write out a file in tidy data format of the mean of all features
   #grouped by activity and subject.
-  write.table(aggregate(combinedData[, 1:66], 
+  #activity and subject are the last 2 columns; aggregate using all other cols
+  write.table(aggregate(combinedData[, 1:(ncol(combinedData) - 2)], 
                         list(Subject = combinedData$subjects,
                              Activity = combinedData$activity), 
                         mean), 
